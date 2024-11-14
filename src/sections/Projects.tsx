@@ -15,7 +15,7 @@ const portfolioProjects = [
     results: [
       { title: "Drag and drop feature" },
       { title: "Weekly winners page" },
-      { title: "Gather user's selection and submission" },
+      { title: "Gather user's submission" },
     ],
     link: "https://youtu.be/4k7IdSLxh6w",
     image: darkSaasLandingPage,

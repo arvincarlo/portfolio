@@ -6,6 +6,8 @@ import StarIcon from '@/assets/icons/star.svg';
 import { HeroOrbit } from '@/components/HeroOrbit';
 import SparkleIcon from '@/assets/icons/sparkle.svg';
 
+import { Reveal } from '@/features/Reveal';
+
 export const HeroSection = () => {
   return (
     <div className="py-32 md:py-48 lg:py-60 relative z-0 overflow-x-clip">
@@ -58,21 +60,31 @@ export const HeroSection = () => {
             <div className="text-sm font-medium">PRG-Arvin - Available for new projects</div>
           </div>
         </div>
-        <div className='max-w-lg mx-auto'>
-          <h1 className="font-serif text-3xl text-center mt-8 tracking-wide md:text-5xl">Building Exceptional User Experiences</h1>
-          <p className="mt-4 text-center text-white/60 md:text-lg">
-            Hi, I'm Arvin. I specialize in transforming designs into functional, high-performing web applications. Let's discuss your next project.
-          </p>
-        </div>
+          <div className='max-w-lg mx-auto'>
+            <Reveal>
+              <>
+                <h1 className="font-serif text-3xl text-center mt-8 tracking-wide md:text-5xl">Building Exceptional User Experiences</h1>
+                <p className="mt-4 text-center text-white/60 md:text-lg">
+                    <span>
+                      Hi, I'm Arvin. I specialize in transforming designs into functional, high-performing web applications. Let's discuss your next project.
+                    </span>
+                </p>
+              </>
+            </Reveal>
+          </div>
         <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4">
-          <button className="inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl">
-            <span className="font-semibold">Explore My Work</span>
-            <ArrowDown className="size-4"/>
-          </button>
-          <button className="inline-flex items-center gap-2 border bg-white text-gray-900 h-12 px-6 rounded-xl">
-            <span>🤝🏼</span>
-            <span className='font-semibold'>Let's Connect</span>
-          </button>
+          <Reveal>
+            <button className="inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl">
+              <span className="font-semibold">Explore My Work</span>
+              <ArrowDown className="size-4"/>
+            </button>
+          </Reveal>
+          <Reveal>
+            <button className="inline-flex items-center gap-2 border bg-white text-gray-900 h-12 px-6 rounded-xl">
+              <span>🤝🏼</span>
+              <span className='font-semibold'>Let's Connect</span>
+            </button>
+          </Reveal>
         </div>
       </div>
     </div>

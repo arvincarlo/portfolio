@@ -16,6 +16,7 @@ import mapImage from '@/assets/images/map.png';
 import smileMemoji from '@/assets/images/memoji-smile.png';
 import { CardHeader } from "@/components/CardHeader";
 import { ToolboxItems } from "@/components/ToolboxItems";
+import { Reveal } from "@/features/Reveal";
 
 const toolboxItems = [
   {
@@ -94,7 +95,7 @@ export const AboutSection = () => {
 
   return (
     <div className="py-20 lg:py-28">
-      <div className="container">
+      <div className="container" id="about">
         <SectionHeader eyebrow="About Me" title="A Glimpse Into My World" description="Learn more about who I am, what I do, and what inspires me."/>
         <div className="mt-20 flex flex-col gap-8">
           <div className="grid sm:grid-cols-1 gap-8 md:grid-cols-5 lg:grid-cols-3">
@@ -104,7 +105,6 @@ export const AboutSection = () => {
                 <Image src={bookImage} alt="book cover"/>
               </div>
             </Card>
-
             <Card className="h-[320px] md:col-span-3 lg:col-span-2">
               <CardHeader title="My Toolbox" description="Explore the technologies and tools I use to craft exceptional digital experiences." className=""/>
               <ToolboxItems items={toolboxItems} className="" itemsWrapperClassName="animate-move-left [animation-duration:30s]"/>

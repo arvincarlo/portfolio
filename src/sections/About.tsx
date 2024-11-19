@@ -6,17 +6,25 @@ import { SectionHeader } from "@/components/SectionHeader";
 import { Card } from "@/components/Card";
 import Image from "next/image";
 import bookImage from '@/assets/images/book-cover.png'
+import mapImage from '@/assets/images/map2.png';
+import smileMemoji from '@/assets/images/memoji-smile.png';
+import { CardHeader } from "@/components/CardHeader";
+import { ToolboxItems } from "@/components/ToolboxItems";
 import JavascriptIcon from '@/assets/icons/square-js.svg'
 import HTMLIcon from '@/assets/icons/html5.svg'
 import CssIcon from '@/assets/icons/css3.svg'
 import ReactIcon from '@/assets/icons/react.svg'
 import ChromeIcon from '@/assets/icons/chrome.svg'
 import GithubIcon from '@/assets/icons/github.svg'
-import mapImage from '@/assets/images/map.png';
-import smileMemoji from '@/assets/images/memoji-smile.png';
-import { CardHeader } from "@/components/CardHeader";
-import { ToolboxItems } from "@/components/ToolboxItems";
-import { Reveal } from "@/features/Reveal";
+import NextJs from '@/assets/icons/nextjs.svg'
+import Typescript from '@/assets/icons/ts.svg'
+import Styled from '@/assets/icons/styled.svg'
+import Tailwind from '@/assets/icons/tailwind.svg'
+import Bootstrap from '@/assets/icons/bootstrap.svg'
+import PHP from '@/assets/icons/php.svg'
+import mysql from '@/assets/icons/mysql.svg'
+import redux from '@/assets/icons/redux.svg'
+import Angular from '@/assets/icons/angular.svg'
 
 const toolboxItems = [
   {
@@ -36,6 +44,38 @@ const toolboxItems = [
     iconType: ReactIcon,
   },
   {
+    title: "Redux",
+    iconType: redux,
+  },
+  {
+    title: "PHP",
+    iconType: PHP,
+  },
+  {
+    title: "MySQL",
+    iconType: mysql,
+  },
+  {
+    title: "NextJs",
+    iconType: NextJs,
+  },
+  {
+    title: "Angular",
+    iconType: Angular,
+  },
+  {
+    title: "Bootstrap",
+    iconType: Bootstrap,
+  },
+  {
+    title: "Styled Components",
+    iconType: Styled,
+  },
+  {
+    title: "TailwindCSS",
+    iconType: Tailwind,
+  },
+  {
     title: "Chrome",
     iconType: ChromeIcon,
   },
@@ -47,8 +87,8 @@ const toolboxItems = [
 
 const hobbies = [
   {
-    title: "Painting",
-    emoji: "🎨",
+    title: "Movies",
+    emoji: "🎥",
     left: '5%',
     top: '5%',
   },
@@ -71,6 +111,12 @@ const hobbies = [
     top: '35%',
   },
   {
+    title: "Roadtrips",
+    emoji: "🚗",
+    left: '70%',
+    top: '20%',
+  },
+  {
     title: "Music",
     emoji: "🎧",
     left: '70%',
@@ -83,8 +129,8 @@ const hobbies = [
     top: '65%',
   },
   {
-    title: "Reading",
-    emoji: "📚",
+    title: "Basketball",
+    emoji: "🏀",
     left: '45%',
     top: '70%',
   },
@@ -106,7 +152,7 @@ export const AboutSection = () => {
               </div>
             </Card>
             <Card className="h-[320px] md:col-span-3 lg:col-span-2">
-              <CardHeader title="My Toolbox" description="Explore the technologies and tools I use to craft exceptional digital experiences." className=""/>
+              <CardHeader title="My Toolbox" description="Explore the technologies and tools I use to craft exceptional coding experiences." className=""/>
               <ToolboxItems items={toolboxItems} className="" itemsWrapperClassName="animate-move-left [animation-duration:30s]"/>
               <ToolboxItems items={toolboxItems} className="mt-6" itemsWrapperClassName="-translate-x-1/2 animate-move-right [animation-duration:15s]"/>
             </Card>
@@ -114,7 +160,7 @@ export const AboutSection = () => {
 
           <div className="grid gap-8 grid-cols-1 md:grid-cols-5 lg:grid-cols-3">
             <Card className="h-[320px] p-0 flex flex-col md:col-span-3 lg:col-span-2">
-              <CardHeader title="Beyond the Code" description="Explore my interests and hobbies beyond the digital realm." className="px-6 py-6"/>
+              <CardHeader title="Beyond the Code" description="Explore my interests and hobbies beyond the coding realm. (Drag Me!)" className="px-6 py-6"/>
               <div className="relative flex-1" ref={constraintRef}>
                 {hobbies.map(hobby => (
                   <motion.div key={hobby.title} className="inline-flex items-center gap-2 px-6 bg-gradient-to-r from-emerald-300 to-sky-400 rounded-full py-1.5 absolute" style={{

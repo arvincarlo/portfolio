@@ -2,11 +2,11 @@ import ArrowUpRightIcon from '@/assets/icons/arrow-up-right.svg';
 
 const  footerLinks =[
   {
-    'title': "YouTube",
+    'title': "LinkedIn",
     'href': "#",
   },
   {
-    'title': "Twitter",
+    'title': "Facebook",
     'href': "#",
   },
   {
@@ -14,7 +14,7 @@ const  footerLinks =[
     'href': "#",
   },
   {
-    'title': "LinkedIn",
+    'title': "Jobstreet",
     'href': "#",
   },
 ]

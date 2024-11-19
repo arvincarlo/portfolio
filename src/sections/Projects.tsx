@@ -1,6 +1,8 @@
 import darkSaasLandingPage from "@/assets/images/dark-saas-landing-page.png";
 import lightSaasLandingPage from "@/assets/images/light-saas-landing-page.png";
-import bigBashPage from "@/assets/images/bigbash-page.png";
+import voyage from "@/assets/images/voyage.png";
+import pizza from "@/assets/images/pizza.png";
+import wildOasis from "@/assets/images/wild-oasis.png";
 import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
 import Image from "next/image";
 import CheckCircleIcon from '@/assets/icons/check-circle.svg'
@@ -12,39 +14,39 @@ import { Card } from "@/components/Card";
 const portfolioProjects = [
   {
     company: "Pacific Sea BPO.",
-    year: "2021",
-    title: "Dark Saas Landing Page",
+    year: "2023",
+    title: "PinVoyage",
     results: [
-      { title: "Drag and drop feature" },
-      { title: "Weekly winners page" },
-      { title: "Gather user's submission" },
+      { title: "React Leaflet library" },
+      { title: "Routing Using React Router" },
+      { title: "State Management with ContextAPI" },
     ],
     link: "https://youtu.be/4k7IdSLxh6w",
-    image: darkSaasLandingPage,
+    image: voyage,
   },
   {
     company: "Pacific Sea BPO.",
-    year: "2021",
-    title: "Light Saas Landing Page",
+    year: "2024",
+    title: "Cheezy Dreams Ordering Page",
     results: [
-      { title: "Boosted sales by 20%" },
-      { title: "Expanded customer reach by 35%" },
-      { title: "Increased brand awareness by 15%" },
+      { title: "Handling Forms using React Hook Form" },
+      { title: "TailwindCSS for UI" },
+      { title: "Managing States with Redux Toolkit" },
     ],
     link: "https://youtu.be/7hi5zwO75yc",
-    image: lightSaasLandingPage,
+    image: pizza,
   },
   {
     company: "Pacific Sea BPO.",
-    year: "2023",
-    title: "AI Startup Landing Page",
+    year: "2024",
+    title: "The Wild Oasis",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: "Routing with React Router" },
+      { title: "Styled Components for the styling" },
+      { title: "Data Fetching using React Query" },
     ],
     link: "https://youtu.be/Z7I5uSRHMHg",
-    image: aiStartupLandingPage,
+    image: wildOasis,
   },
 ];
 

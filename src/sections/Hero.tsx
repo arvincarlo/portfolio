@@ -50,7 +50,7 @@ export const HeroSection = () => {
           <StarIcon className="size-28 text-emerald-300"/>
         </HeroOrbit>
         <HeroOrbit size={860} rotation={72} shouldOrbit orbitDuration='52s' shouldSpin spinDuration='12s'>
-          <StarIcon className="size-16 text-emerald-300"/>
+          <SparkleIcon className="size-16 text-emerald-300"/>
         </HeroOrbit>
         <HeroOrbit size={900} rotation={-152} shouldOrbit orbitDuration='50s' shouldSpin spinDuration='10s'>
           <StarIcon className="size-20 text-emerald-300"/>
@@ -81,14 +81,14 @@ export const HeroSection = () => {
         <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4">
           <Reveal>
             <button className="inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl">
-              <span className="font-semibold">Explore My Work</span>
+              <a className="font-semibold" href="#projects">Explore My Work</a>
               <ArrowDown className="size-4"/>
             </button>
           </Reveal>
           <Reveal>
             <button className="inline-flex items-center gap-2 border bg-white text-gray-900 h-12 px-6 rounded-xl">
               <span>🤝🏼</span>
-              <span className='font-semibold'>Let's Connect</span>
+              <a href="mailto:arvincarloramoscris@gmail.com" className='font-semibold'>Let's Connect</a>
             </button>
           </Reveal>
         </div>

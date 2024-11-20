@@ -14,7 +14,6 @@ import Ted from '@/assets/images/testimonials/ted.jpg'
 import Gab from '@/assets/images/testimonials/gab.jpg'
 import Estee from '@/assets/images/testimonials/estee.jpg'
 import Marc from '@/assets/images/testimonials/marc.jpg'
-import Jerome from '@/assets/images/testimonials/jerome.jpg'
 
 const testimonials = [
   {
@@ -32,32 +31,20 @@ const testimonials = [
   {
     name: "Ian Sumayo",
     position: "Project Lead",
-    text: "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.\"",
+    text: "\"For the past 5 years of working with Arvin, I have to say he is one of the most detail-oriented people I've ever met. He ensures every task is 100% deliverable and fully usable for clients. Even the smallest, most unnoticeable bugs matter greatly to him. I trust him completely as a developer, even when I’m not around, as he consistently accomplishes tasks efficiently and reliably.\"",
     avatar: Ian,
   },
   {
     name: "Estee Lim",
     position: "PMO @ Pacific Sea BPO",
-    text: "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.\"",
+    text: "\"I was continually impressed by Arvin's creativity and dedication. His skills are exceptional and ability to troubleshoot and solve complex problems was instrumental in meeting our tight deadlines, also made the process enjoyable for the whole team. I wholeheartedly recommend to anyone looking for a talented and reliable professional web programmer, he will be a valuable asset to any team!\"",
     avatar: Estee,
-  },
-  {
-    name: "Gab Macayan",
-    position: "Senior UI Developer @ PSPBPO",
-    text: "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.\"",
-    avatar: Gab,
   },
   {
     name: "Marc Caratao",
     position: "QA Lead @ PSPBPO",
-    text: "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.\"",
+    text: "\"Arvin is good collaborator and attentive when it comes to fixing a bug on a timely manner before deploying on production.\"",
     avatar: Marc,
-  },
-  {
-    name: "Jerome Pascua",
-    position: "Senior Backend Developer @ PSPBPO",
-    text: "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.\"",
-    avatar: Jerome,
   },
 ];
 
@@ -67,7 +54,7 @@ export const TestimonialsSection = () => {
       <div className="container">
         <SectionHeader eyebrow="Happy Colleagues" title="What Colleagues Say about Me" description="Don't just take my word for it. See what my collaborators have to say about my work."/>
         <div className="mt-12 lg:mt-20 flex overflow-x-clip [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)] py-4 -my-4">
-          <div className="flex gap-8 pr-8 flex-none animate-move-left [animation-duration:10s] hover:[animation-play-state:paused]">
+          <div className="flex gap-8 pr-8 flex-none animate-move-left [animation-duration:90s] hover:[animation-play-state:paused]">
             {[...new Array(2)].fill(0).map((_, index) => (
               <Fragment key={index}>
                 {testimonials.map(testimonial => (
@@ -81,7 +68,7 @@ export const TestimonialsSection = () => {
                         <div className="text-sm text-white/40">{testimonial.position}</div>
                       </div>
                     </div>
-                    <p className="mt-4 md:mt-6 text-sm md:text-base text-center">{testimonial.text}</p>
+                    <p className="mt-4 md:mt-6 text-sm md:text-base justify-center">{testimonial.text}</p>
                   </Card>
                 ))}
               </Fragment>

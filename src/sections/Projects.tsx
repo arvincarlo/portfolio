@@ -21,7 +21,7 @@ const portfolioProjects = [
       { title: "Routing Using React Router" },
       { title: "State Management with ContextAPI" },
     ],
-    link: "https://youtu.be/4k7IdSLxh6w",
+    link: "https://github.com/arvincarlo/MyWorld",
     image: voyage,
   },
   {
@@ -33,7 +33,7 @@ const portfolioProjects = [
       { title: "TailwindCSS for Styling" },
       { title: "Managing States with Redux Toolkit" },
     ],
-    link: "https://youtu.be/7hi5zwO75yc",
+    link: "https://github.com/arvincarlo/CheezyDreams",
     image: pizza,
   },
   {
@@ -45,7 +45,7 @@ const portfolioProjects = [
       { title: "Styled Components for the styling" },
       { title: "Data Fetching using React Query" },
     ],
-    link: "https://youtu.be/Z7I5uSRHMHg",
+    link: "https://github.com/arvincarlo/the-wild-oasis",
     image: wildOasis,
   },
 ];

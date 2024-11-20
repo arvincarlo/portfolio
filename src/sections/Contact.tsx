@@ -20,7 +20,7 @@ export const ContactSection = () => {
             {/* button */}
             <div>
               <button className="text-white bg-gray-900 inline-flex items-center px-6 h-12 rounded-xl gap-2 w-max border border-gray-900">
-                <span className="font-semibold">Contact Me</span>
+                <a href="mailto:arvincarloramoscris@gmail.com" className="font-semibold">Contact Me</a>
                 <ArrowUpRightIcon className="size-4"/>
               </button>
             </div>

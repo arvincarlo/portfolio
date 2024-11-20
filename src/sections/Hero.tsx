@@ -49,6 +49,12 @@ export const HeroSection = () => {
         <HeroOrbit size={800} rotation={-72} shouldOrbit orbitDuration='48s' shouldSpin spinDuration='6s'>
           <StarIcon className="size-28 text-emerald-300"/>
         </HeroOrbit>
+        <HeroOrbit size={860} rotation={72} shouldOrbit orbitDuration='52s' shouldSpin spinDuration='12s'>
+          <StarIcon className="size-16 text-emerald-300"/>
+        </HeroOrbit>
+        <HeroOrbit size={900} rotation={-152} shouldOrbit orbitDuration='50s' shouldSpin spinDuration='10s'>
+          <StarIcon className="size-20 text-emerald-300"/>
+        </HeroOrbit>
       </div>
       <div className="container">
         <div className="flex flex-col items-center">

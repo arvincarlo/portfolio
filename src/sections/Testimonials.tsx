@@ -20,7 +20,7 @@ const testimonials = [
   {
     name: "Ted Miranda",
     position: "Team Leader @ Pacific Sea BPO",
-    text: "\"He has a solid work ethic and a good foundation when it comes to web development skills, always eager to contribute and collaborate, making them a valuable asset to any project.\"",
+    text: "\"He has a solid work ethic and a good foundation when it comes to web development skills, always eager to contribute and collaborate, making him a valuable asset to any project.\"",
     avatar: Ted,
   },
   {

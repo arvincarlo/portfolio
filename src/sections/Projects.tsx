@@ -30,7 +30,7 @@ const portfolioProjects = [
     title: "Cheezy Dreams Ordering Page",
     results: [
       { title: "Handling Forms using React Hook Form" },
-      { title: "TailwindCSS for UI" },
+      { title: "TailwindCSS for Styling" },
       { title: "Managing States with Redux Toolkit" },
     ],
     link: "https://youtu.be/7hi5zwO75yc",

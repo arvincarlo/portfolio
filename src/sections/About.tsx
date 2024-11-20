@@ -25,6 +25,7 @@ import PHP from '@/assets/icons/php.svg'
 import mysql from '@/assets/icons/mysql.svg'
 import redux from '@/assets/icons/redux.svg'
 import Angular from '@/assets/icons/angular.svg'
+import jquery from '@/assets/icons/jquery.svg'
 
 const toolboxItems = [
   {
@@ -62,6 +63,10 @@ const toolboxItems = [
   {
     title: "Angular",
     iconType: Angular,
+  },
+  {
+    title: "jquery",
+    iconType: jquery,
   },
   {
     title: "Bootstrap",
@@ -160,7 +165,7 @@ export const AboutSection = () => {
 
           <div className="grid gap-8 grid-cols-1 md:grid-cols-5 lg:grid-cols-3">
             <Card className="h-[320px] p-0 flex flex-col md:col-span-3 lg:col-span-2">
-              <CardHeader title="Beyond the Code" description="Explore my interests and hobbies beyond the coding realm. (Drag Me!)" className="px-6 py-6"/>
+              <CardHeader title="Beyond the Code" description="Explore my interests and hobbies beyond the coding realm. (Drag Me)" className="px-6 py-6"/>
               <div className="relative flex-1" ref={constraintRef}>
                 {hobbies.map(hobby => (
                   <motion.div key={hobby.title} className="inline-flex items-center gap-2 px-6 bg-gradient-to-r from-emerald-300 to-sky-400 rounded-full py-1.5 absolute" style={{

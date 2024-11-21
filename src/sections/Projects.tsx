@@ -3,6 +3,7 @@ import lightSaasLandingPage from "@/assets/images/light-saas-landing-page.png";
 import voyage from "@/assets/images/voyage.png";
 import pizza from "@/assets/images/pizza.png";
 import wildOasis from "@/assets/images/wild-oasis.png";
+import quiz from "@/assets/images/quiz.png";
 import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
 import Image from "next/image";
 import CheckCircleIcon from '@/assets/icons/check-circle.svg'
@@ -21,8 +22,19 @@ const portfolioProjects = [
       { title: "Routing using React Router" },
       { title: "React Leaflet library" },
     ],
-    link: "https://github.com/arvincarlo/MyWorld",
+    link: "https://pin-voyage.vercel.app/",
     image: voyage,
+  },
+  {
+    company: "Pacific Sea BPO.",
+    year: "2023",
+    title: "ReactIQ Quiz Application",
+    results: [
+      { title: "State Management with ContextAPI" },
+      { title: "Single page application" },
+    ],
+    link: "https://reactiq-quiz.vercel.app/",
+    image: quiz,
   },
   {
     company: "Pacific Sea BPO.",
@@ -48,6 +60,7 @@ const portfolioProjects = [
     link: "#",
     image: wildOasis,
   },
+  
 ];
 
 export const ProjectsSection = () => {

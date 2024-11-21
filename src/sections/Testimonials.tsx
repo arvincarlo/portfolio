@@ -47,6 +47,12 @@ const testimonials = [
     text: '"Arvin is good collaborator and attentive when it comes to fixing a bug on a timely manner before deploying on production."',
     avatar: Marc,
   },
+  {
+    name: "Gab Macayan",
+    position: "Senior UI Developer",
+    text: '"I’ve had the chance to work with Arvin for a while, and he’s been a huge asset to the team. He’s really knowledgeable about frontend tools and always nails the technical side of things. On top of that, Arvin is super easy to work with – his positive attitude and willingness to help make him a great teammate. It’s been a pleasure working with him!"',
+    avatar: Gab,
+  },
 ];
 
 export const TestimonialsSection = () => {

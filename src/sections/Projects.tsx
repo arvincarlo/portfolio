@@ -17,9 +17,9 @@ const portfolioProjects = [
     year: "2023",
     title: "PinVoyage",
     results: [
-      { title: "React Leaflet library" },
-      { title: "Routing Using React Router" },
       { title: "State Management with ContextAPI" },
+      { title: "Routing Using React Router" },
+      { title: "React Leaflet library" },
     ],
     link: "https://github.com/arvincarlo/MyWorld",
     image: voyage,
@@ -29,9 +29,9 @@ const portfolioProjects = [
     year: "2024",
     title: "Cheezy Dreams Ordering Page",
     results: [
+      { title: "Managing States with Redux Toolkit" },
       { title: "Handling Forms using React Hook Form" },
       { title: "TailwindCSS for Styling" },
-      { title: "Managing States with Redux Toolkit" },
     ],
     link: "https://github.com/arvincarlo/CheezyDreams",
     image: pizza,
@@ -41,9 +41,9 @@ const portfolioProjects = [
     year: "2024",
     title: "The Wild Oasis",
     results: [
+      { title: "Data Fetching using React Query" },
       { title: "Routing with React Router" },
       { title: "Styled Components for the styling" },
-      { title: "Data Fetching using React Query" },
     ],
     link: "https://github.com/arvincarlo/the-wild-oasis",
     image: wildOasis,
@@ -79,7 +79,7 @@ export const ProjectsSection = () => {
                   </ul>
                   <a href={project.link} target="_blank">
                     <button className="bg-white text-gray-950 h-12 w-full md:w-auto px-6 rounded-xl font-semibold inline-flex items-center justify-center gap-2 mt-8">
-                      <span>Visit Live Site</span>
+                      <span>Visit Site</span>
                       <ArrowUpRightIcon className="size-4"></ArrowUpRightIcon>
                     </button>
                   </a>

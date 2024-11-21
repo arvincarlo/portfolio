@@ -27,7 +27,19 @@ const portfolioProjects = [
   },
   {
     company: "Pacific Sea BPO.",
-    year: "2023",
+    year: "2024",
+    title: "The Wild Oasis",
+    results: [
+      { title: "Data Fetching using React Query" },
+      { title: "Routing using React Router" },
+      { title: "Styling using Styled Components" },
+    ],
+    link: "#",
+    image: wildOasis,
+  },
+  {
+    company: "Pacific Sea BPO.",
+    year: "2024",
     title: "PinVoyage",
     results: [
       { title: "State Management with ContextAPI" },
@@ -48,19 +60,6 @@ const portfolioProjects = [
     link: "#",
     image: quiz,
   },
-  {
-    company: "Pacific Sea BPO.",
-    year: "2024",
-    title: "The Wild Oasis",
-    results: [
-      { title: "Data Fetching using React Query" },
-      { title: "Routing using React Router" },
-      { title: "Styling using Styled Components" },
-    ],
-    link: "#",
-    image: wildOasis,
-  },
-  
 ];
 
 export const ProjectsSection = () => {
@@ -76,7 +75,6 @@ export const ProjectsSection = () => {
               <div className="lg:grid lg:grid-cols-2 lg:gap-16">
                 <div className="lg:pb-16">
                   <div className="bg-gradient-to-r from-emerald-300 to-sky-400 inline-flex gap-2 font-bold uppercase tracking-widest text-sm text-transparent bg-clip-text">
-                    <span>{project.company}</span>
                     <span>&bull;</span>
                     <span>{project.year}</span>
                   </div>

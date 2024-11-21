@@ -92,7 +92,7 @@ export const HeroSection = () => {
                 <h1 className="font-serif text-3xl text-center mt-8 tracking-wide md:text-5xl">Building Exceptional User Experiences</h1>
                 <p className="mt-4 text-center text-white/60 md:text-lg">
                     <span>
-                      Hi, I'm Arvin. I specialize in transforming designs into functional, high-performing web applications. Let's discuss your next project.
+                      Hi, I&apos;m Arvin. I specialize in transforming designs into functional, high-performing web applications. Let&apos;s discuss your next project.
                     </span>
                 </p>
               </>
@@ -108,7 +108,7 @@ export const HeroSection = () => {
           <Reveal>
             <button className="inline-flex items-center gap-2 border bg-white text-gray-900 h-12 px-6 rounded-xl">
               <span>🤝🏼</span>
-              <a href="https://www.linkedin.com/in/arvin-carlo-cris-a2412511a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" className='font-semibold'>Let's Connect</a>
+              <a href="https://www.linkedin.com/in/arvin-carlo-cris-a2412511a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" className='font-semibold'>Let&apos;s Connect</a>
             </button>
           </Reveal>
         </div>

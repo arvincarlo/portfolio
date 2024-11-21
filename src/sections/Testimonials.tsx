@@ -14,36 +14,37 @@ import Ted from '@/assets/images/testimonials/ted.jpg'
 import Gab from '@/assets/images/testimonials/gab.jpg'
 import Estee from '@/assets/images/testimonials/estee.jpg'
 import Marc from '@/assets/images/testimonials/marc.jpg'
+import { stringify } from "querystring";
 
 const testimonials = [
   {
     name: "Ted Miranda",
     position: "Team Leader @ Pacific Sea BPO",
-    text: "He has a solid work ethic and a good foundation when it comes to web development skills, always eager to contribute and collaborate, making him a valuable asset to any project.",
+    text: '"He has a solid work ethic and a good foundation when it comes to web development skills, always eager to contribute and collaborate, making him a valuable asset to any project."',
     avatar: Ted,
   },
   {
     name: "Jas Estrella",
     position: "Senior Frontend Developer",
-    text: "Arvin is a hardworking and reliable colleague, always helping his teammates on projects with his expertise and humor. He's truly someone you can count on to get the job done right, and he knows his work inside out.",
+    text: '"Arvin is a hardworking and reliable colleague, always helping his teammates on projects with his expertise and humor. He is truly someone you can count on to get the job done right, and he knows his work inside out."',
     avatar: Jasmin,
   },
   {
     name: "Ian Sumayo",
     position: "Project Lead",
-    text: "For the past 5 years of working with Arvin, I have to say he is one of the most detail-oriented people I've ever met. He ensures every task is 100% deliverable and fully usable for clients. Even the smallest, most unnoticeable bugs matter greatly to him. I trust him completely as a developer, even when I’m not around, as he consistently accomplishes tasks efficiently and reliably.",
+    text: '"For the past 5 years of working with Arvin, I have to say he is one of the most detail-oriented people I’ve ever met. He ensures every task is 100% deliverable and fully usable for clients. Even the smallest, most unnoticeable bugs matter greatly to him. I trust him completely as a developer, even when I’m not around, as he consistently accomplishes tasks efficiently and reliably."',
     avatar: Ian,
   },
   {
     name: "Estee Lim",
     position: "PMO @ Pacific Sea BPO",
-    text: "I was continually impressed by Arvin's creativity and dedication. His skills are exceptional and ability to troubleshoot and solve complex problems was instrumental in meeting our tight deadlines, also made the process enjoyable for the whole team. I wholeheartedly recommend to anyone looking for a talented and reliable professional web programmer, he will be a valuable asset to any team!",
+    text: '"I was continually impressed by Arvin’s creativity and dedication. His skills are exceptional and ability to troubleshoot and solve complex problems was instrumental in meeting our tight deadlines, also made the process enjoyable for the whole team. I wholeheartedly recommend to anyone looking for a talented and reliable professional web programmer, he will be a valuable asset to any team!"',
     avatar: Estee,
   },
   {
     name: "Marc Caratao",
     position: "QA Lead @ PSPBPO",
-    text: "Arvin is good collaborator and attentive when it comes to fixing a bug on a timely manner before deploying on production.",
+    text: '"Arvin is good collaborator and attentive when it comes to fixing a bug on a timely manner before deploying on production."',
     avatar: Marc,
   },
 ];

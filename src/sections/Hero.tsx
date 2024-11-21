@@ -11,6 +11,15 @@ import SparkleIcon from '@/assets/icons/sparkle.svg';
 import { Reveal } from '@/features/Reveal';
 
 export const HeroSection = () => {
+
+  const handleScroll = (element: string) => {
+    const target = document?.querySelector(element) as HTMLElement;
+    window.scrollTo({
+      top: target?.offsetTop,
+      behavior: "smooth",
+    })
+  };
+
   return (
     <div className="py-32 md:py-48 lg:py-60 relative z-0 overflow-x-clip" id="home">
       <div className="absolute inset-0 [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_70%,transparent)]">
@@ -101,7 +110,7 @@ export const HeroSection = () => {
         <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4">
           <Reveal>
             <button className="inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl">
-              <span className="font-semibold" onClick={() => window.scrollTo({ top: document?.querySelector("#projects")?.offsetTop, behavior:'smooth' })}>Explore My Work</span>
+              <span className="font-semibold" onClick={() => handleScroll("#projects")}>Explore My Work</span>
               <ArrowDown className="size-4"/>
             </button>
           </Reveal>

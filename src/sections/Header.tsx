@@ -1,7 +1,13 @@
 "use client"
 
 export const Header = () => {
-  const handleScroll = (element: string) => window.scrollTo({ top: document?.querySelector(element)?.offsetTop, behavior:'smooth' });
+  const handleScroll = (element: string) => {
+    const target = document?.querySelector(element) as HTMLElement;
+    window.scrollTo({
+      top: target?.offsetTop,
+      behavior: "smooth",
+    })
+  };
 
   return (
     <div className="flex justify-center items-center fixed top-3 w-full z-10">

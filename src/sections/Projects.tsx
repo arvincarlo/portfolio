@@ -18,7 +18,7 @@ const portfolioProjects = [
     title: "PinVoyage",
     results: [
       { title: "State Management with ContextAPI" },
-      { title: "Routing Using React Router" },
+      { title: "Routing using React Router" },
       { title: "React Leaflet library" },
     ],
     link: "https://github.com/arvincarlo/MyWorld",
@@ -42,8 +42,8 @@ const portfolioProjects = [
     title: "The Wild Oasis",
     results: [
       { title: "Data Fetching using React Query" },
-      { title: "Routing with React Router" },
-      { title: "Styled Components for the styling" },
+      { title: "Routing using React Router" },
+      { title: "Styling using Styled Components" },
     ],
     link: "https://github.com/arvincarlo/the-wild-oasis",
     image: wildOasis,

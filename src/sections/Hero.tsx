@@ -30,6 +30,12 @@ export const HeroSection = () => {
         <div className="hero-ring size-[820px]"></div>
         <div className="hero-ring size-[1020px]"></div>
         <div className="hero-ring size-[1220px]"></div>
+        <HeroOrbit size={380} rotation={-75} shouldOrbit orbitDuration='60s' shouldSpin spinDuration='3s'>
+          <StarIcon className="size-8 text-emerald-300/20"/>
+        </HeroOrbit>
+        <HeroOrbit size={400} rotation={140} shouldOrbit orbitDuration='50s' shouldSpin spinDuration='3s'>
+          <SparkleIcon className="size-5 text-sky-300/20"/>
+        </HeroOrbit>
         <HeroOrbit size={430} rotation={-14} shouldOrbit orbitDuration='30s' shouldSpin spinDuration='3s'>
           <SparkleIcon className="size-8 text-emerald-300/20"/>
         </HeroOrbit>

@@ -15,6 +15,18 @@ import { Card } from "@/components/Card";
 const portfolioProjects = [
   {
     company: "Pacific Sea BPO.",
+    year: "2024",
+    title: "Cheezy Dreams Pizza Co.",
+    results: [
+      { title: "Managing States with Redux Toolkit" },
+      { title: "Handling Forms using React Hook Form" },
+      { title: "TailwindCSS for Styling" },
+    ],
+    link: "https://cheezy-dreams.vercel.app/",
+    image: pizza,
+  },
+  {
+    company: "Pacific Sea BPO.",
     year: "2023",
     title: "PinVoyage",
     results: [
@@ -22,7 +34,7 @@ const portfolioProjects = [
       { title: "Routing using React Router" },
       { title: "React Leaflet library" },
     ],
-    link: "https://pin-voyage.vercel.app/",
+    link: "#",
     image: voyage,
   },
   {
@@ -33,20 +45,8 @@ const portfolioProjects = [
       { title: "State Management with ContextAPI" },
       { title: "Single page application" },
     ],
-    link: "https://reactiq-quiz.vercel.app/",
+    link: "#",
     image: quiz,
-  },
-  {
-    company: "Pacific Sea BPO.",
-    year: "2024",
-    title: "Cheezy Dreams Ordering Page",
-    results: [
-      { title: "Managing States with Redux Toolkit" },
-      { title: "Handling Forms using React Hook Form" },
-      { title: "TailwindCSS for Styling" },
-    ],
-    link: "https://cheezy-dreams.vercel.app/",
-    image: pizza,
   },
   {
     company: "Pacific Sea BPO.",

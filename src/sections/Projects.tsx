@@ -33,7 +33,7 @@ const portfolioProjects = [
       { title: "Handling Forms using React Hook Form" },
       { title: "TailwindCSS for Styling" },
     ],
-    link: "https://github.com/arvincarlo/CheezyDreams",
+    link: "https://cheezy-dreams.vercel.app/",
     image: pizza,
   },
   {
@@ -45,7 +45,7 @@ const portfolioProjects = [
       { title: "Routing using React Router" },
       { title: "Styling using Styled Components" },
     ],
-    link: "https://github.com/arvincarlo/the-wild-oasis",
+    link: "#",
     image: wildOasis,
   },
 ];

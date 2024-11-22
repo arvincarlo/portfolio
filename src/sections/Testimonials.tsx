@@ -61,11 +61,11 @@ export const TestimonialsSection = () => {
       <div className="container">
         <SectionHeader eyebrow="Happy Colleagues" title="What Colleagues Say about Me" description="Don't just take my word for it. See what my collaborators have to say about my work."/>
         <div className="mt-12 lg:mt-20 flex overflow-x-clip [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)] py-4 -my-4">
-          <div className="flex gap-8 pr-8 flex-none animate-move-left [animation-duration:90s] sm:[animation-duration:70s] md:[animation-duration:90s] lg:[animation-duration:90s] hover:[animation-play-state:paused]">
+          <div className="flex gap-8 pr-8 flex-none animate-move-left [animation-duration:90s] hover:[animation-play-state:paused]">
             {[...new Array(2)].fill(0).map((_, index) => (
               <Fragment key={index}>
                 {testimonials.map(testimonial => (
-                  <Card key={testimonial.name} className="max-w-xs md:max-w-md p-6 md:p-8 after:outline-emerald-400/30 hover:after:outline-red-400/30">
+                  <Card key={testimonial.name} className="max-w-xs md:max-w-md p-6 md:p-8 after:outline-emerald-200/30 hover:after:outline-red-200/30">
                     <div className="flex gap-4 items-center">
                       <div className="size-14 bg-gray-700 inline-flex items-center justify-center rounded-full flex-shrink-0">
                         <Image src={testimonial.avatar} alt={testimonial.name} className="max-h-full rounded-full"/>

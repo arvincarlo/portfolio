@@ -6,6 +6,10 @@ const  footerLinks =[
     'href': "https://www.linkedin.com/in/arvin-carlo-cris-a2412511a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   },
   {
+    'title': "JobStreet",
+    'href': "https://ph.jobstreet.com/profile/arvincarlo-cris-1VsRDWByXz",
+  },
+  {
     'title': "Github",
     'href': "https://github.com/arvincarlo",
   },

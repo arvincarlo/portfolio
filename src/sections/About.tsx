@@ -169,7 +169,7 @@ export const AboutSection = () => {
               <CardHeader title="Beyond the Code" description="Explore my interests and hobbies beyond the coding realm. (Drag Me)" className="px-6 py-6"/>
               <div className="relative flex-1" ref={constraintRef}>
                 {hobbies.map(hobby => (
-                  <motion.div key={hobby.title} className="cursor-pointer inline-flex items-center gap-2 px-6 bg-gradient-to-r from-emerald-300 to-sky-400 rounded-full py-1.5 absolute" style={{
+                  <motion.div key={hobby.title} className="cursor-grab inline-flex items-center gap-2 px-6 bg-gradient-to-r from-emerald-300 to-sky-400 rounded-full py-1.5 absolute" style={{
                     left: hobby.left,
                     top: hobby.top,
                   }} 

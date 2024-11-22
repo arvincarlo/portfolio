@@ -5,7 +5,7 @@ import { useRef } from "react";
 import { SectionHeader } from "@/components/SectionHeader";
 import { Card } from "@/components/Card";
 import Image from "next/image";
-import bookImage from '@/assets/images/book-cover.png'
+import bookImage from '@/assets/images/book.png'
 import mapImage from '@/assets/images/map2.png';
 import smileMemoji from '@/assets/images/memoji-smile.png';
 import { CardHeader } from "@/components/CardHeader";

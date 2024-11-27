@@ -20,7 +20,7 @@ export const ToolboxItems = ({
                 {[...new Array(2).fill(0).map((_, index) => (
                     <Fragment key={index}>
                         {items.map(item => (
-                            <div key={item.title} className="inline-flex items-center gap-4 py-2 px-3 outline outline-2 outline-white/10 rounded-lg">
+                            <div key={item.title} className="inline-flex items-center gap-4 py-2 px-3 outline outline-2 outline-white/10 hover:outline-sky-400/40 rounded-lg">
                                 <TechIcon component={item.iconType}></TechIcon>
                                 <span className="font-semibold">{item.title}</span>
                             </div>

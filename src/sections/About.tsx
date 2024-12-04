@@ -19,6 +19,14 @@ import GithubIcon from '@/assets/icons/github.svg'
 import NextJs from '@/assets/icons/nextjs.svg'
 import Typescript from '@/assets/icons/ts.svg'
 import Styled from '@/assets/icons/styled.svg'
+import Node from '@/assets/icons/node.svg'
+
+
+
+
+
+
+
 import Tailwind from '@/assets/icons/tailwind.svg'
 import Bootstrap from '@/assets/icons/bootstrap.svg'
 import PHP from '@/assets/icons/php.svg'
@@ -58,7 +66,7 @@ const toolboxItems = [
     iconType: mysql,
   },
   {
-    title: "NextJs",
+    title: "NextJS",
     iconType: NextJs,
   },
   {
@@ -88,6 +96,10 @@ const toolboxItems = [
   {
     title: "Github",
     iconType: GithubIcon,
+  },
+  {
+    title: "NodeJS",
+    iconType: Node,
   },
 ];
 

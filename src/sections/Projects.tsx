@@ -34,7 +34,7 @@ const portfolioProjects = [
       { title: "Routing using React Router" },
       { title: "Styling using Styled Components" },
     ],
-    link: "https://sunny-wild-oasis.netlify.app/login",
+    link: "https://sunny-wild-oasis.netlify.app/",
     image: wildOasis,
   },
   {

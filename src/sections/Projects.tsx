@@ -2,6 +2,7 @@ import darkSaasLandingPage from "@/assets/images/dark-saas-landing-page.png";
 import lightSaasLandingPage from "@/assets/images/light-saas-landing-page.png";
 import voyage from "@/assets/images/voyage.png";
 import pizza from "@/assets/images/pizza.png";
+import ShoeValley from "@/assets/images/shoe-valley.png";
 import wildOasis from "@/assets/images/wild-oasis.png";
 import quiz from "@/assets/images/quiz.png";
 import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
@@ -16,6 +17,19 @@ const portfolioProjects = [
   {
     company: "Pacific Sea BPO.",
     year: "2024",
+    title: "The Wild Oasis",
+    results: [
+      { title: "State management using React Query" },
+      { title: "Routing using React Router" },
+      { title: "Styled Components for the styling" },
+      { title: "Interactive charts using Recharts" },
+    ],
+    link: "https://sunny-wild-oasis.netlify.app/",
+    image: wildOasis,
+  },
+  {
+    company: "Pacific Sea BPO.",
+    year: "2024",
     title: "Cheezy Dreams Pizza Co.",
     results: [
       { title: "Managing States with Redux Toolkit" },
@@ -26,16 +40,16 @@ const portfolioProjects = [
     image: pizza,
   },
   {
-    company: "Pacific Sea BPO.",
+    company: "",
     year: "2024",
-    title: "The Wild Oasis",
+    title: "ShoeValley Shop",
     results: [
-      { title: "Data Fetching using React Query" },
-      { title: "Routing using React Router" },
-      { title: "Styling using Styled Components" },
+      { title: "User-Friendly Interface" },
+      { title: "CSS for styling" },
+      { title: "Built using Vue.js" },
     ],
-    link: "https://sunny-wild-oasis.netlify.app/",
-    image: wildOasis,
+    link: "https://shoe-valley.vercel.app/",
+    image: ShoeValley,
   },
   {
     company: "Pacific Sea BPO.",
@@ -44,7 +58,7 @@ const portfolioProjects = [
     results: [
       { title: "State Management with ContextAPI" },
       { title: "Routing using React Router" },
-      { title: "React Leaflet library" },
+      { title: "React Leaflet library for the interactive map" },
     ],
     link: "#",
     image: voyage,

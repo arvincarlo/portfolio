@@ -1,20 +1,18 @@
-import darkSaasLandingPage from "@/assets/images/dark-saas-landing-page.png";
-import lightSaasLandingPage from "@/assets/images/light-saas-landing-page.png";
+import Image from "next/image";
+import { Card } from "@/components/Card";
+import { SectionHeader } from "@/components/SectionHeader";
+import CheckCircleIcon from '@/assets/icons/check-circle.svg'
+import ArrowUpRightIcon from '@/assets/icons/arrow-up-right.svg'
+
 import voyage from "@/assets/images/voyage.png";
 import pizza from "@/assets/images/pizza.png";
 import ShoeValley from "@/assets/images/shoe-valley.png";
 import wildOasis from "@/assets/images/wild-oasis.png";
 import quiz from "@/assets/images/quiz.png";
-import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
 import travel_list from "@/assets/images/travel-list.png";
 import eat_n_split from "@/assets/images/eatnsplit.png";
+import movies from "@/assets/images/movies.png";
 import expenses_tracker from "@/assets/images/expenses-tracker.png";
-import Image from "next/image";
-import CheckCircleIcon from '@/assets/icons/check-circle.svg'
-import ArrowUpRightIcon from '@/assets/icons/arrow-up-right.svg'
-import grainImage from '@/assets/images/grain.jpg'
-import { SectionHeader } from "@/components/SectionHeader";
-import { Card } from "@/components/Card";
 
 const portfolioProjects = [
   {
@@ -43,18 +41,6 @@ const portfolioProjects = [
     image: pizza,
   },
   {
-    company: "",
-    year: "2024",
-    title: "ShoeValley Shop",
-    results: [
-      { title: "User-Friendly Interface" },
-      { title: "CSS for styling" },
-      { title: "Built using Vue.js" },
-    ],
-    link: "https://shoe-valley.vercel.app/",
-    image: ShoeValley,
-  },
-  {
     company: "Pacific Sea BPO.",
     year: "2024",
     title: "PinVoyage",
@@ -65,6 +51,18 @@ const portfolioProjects = [
     ],
     link: "https://pin-voyage.vercel.app/",
     image: voyage,
+  },
+  {
+    company: "",
+    year: "2023",
+    title: "ShoeValley Shop",
+    results: [
+      { title: "User-Friendly Interface" },
+      { title: "CSS for styling" },
+      { title: "Built using Vue.js" },
+    ],
+    link: "https://shoe-valley.vercel.app/",
+    image: ShoeValley,
   },
   {
     company: "Pacific Sea BPO.",
@@ -92,6 +90,18 @@ const portfolioProjects = [
   {
     company: "Pacific Sea BPO.",
     year: "2023",
+    title: "Magic Flix",
+    results: [
+      { title: "State management using useReducer" },
+      { title: "useEffect and useRef Hooks" },
+      { title: "Movie database api" },
+    ],
+    link: "https://magic-flix-lac.vercel.app/",
+    image: movies,
+  },
+  {
+    company: "Pacific Sea BPO.",
+    year: "2023",
     title: "BudgetBuddy",
     results: [
       { title: "User-Friendly Interface" },
@@ -103,7 +113,7 @@ const portfolioProjects = [
   },
   {
     company: "Pacific Sea BPO.",
-    year: "2023",
+    year: "2022",
     title: "Traveler's List",
     results: [
       { title: "State management with useReducer" },
@@ -123,7 +133,7 @@ export const ProjectsSection = () => {
         <div className="flex flex-col mt-10 gap-20 md:mt-20">
           {portfolioProjects.map((project, projectIndex) => (
             <Card key={project.title} className="px-8 pt-8 md:pt-12 md:px-10 lg:pt-16 lg:px-20 pb-0 sticky top-16" style={{
-              top: `calc(64px + ${projectIndex * 40}px)`
+              top: `calc(64px + ${projectIndex * 33}px)`
             }}>
               <div className="lg:grid lg:grid-cols-2 lg:gap-16">
                 <div className="lg:pb-16">

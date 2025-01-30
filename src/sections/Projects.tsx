@@ -69,12 +69,12 @@ const portfolioProjects = [
   {
     company: "Pacific Sea BPO.",
     year: "2023",
-    title: "ReactIQ Quiz Application",
+    title: "React TestZone Application",
     results: [
       { title: "State Management with ContextAPI" },
       { title: "Single page application" },
     ],
-    link: "#",
+    link: "https://reactiq-quiz.vercel.app/",
     image: quiz,
   },
   {

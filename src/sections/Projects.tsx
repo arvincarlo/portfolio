@@ -6,6 +6,9 @@ import ShoeValley from "@/assets/images/shoe-valley.png";
 import wildOasis from "@/assets/images/wild-oasis.png";
 import quiz from "@/assets/images/quiz.png";
 import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
+import travel_list from "@/assets/images/travel-list.png";
+import eat_n_split from "@/assets/images/eatnsplit.png";
+import expenses_tracker from "@/assets/images/expenses-tracker.png";
 import Image from "next/image";
 import CheckCircleIcon from '@/assets/icons/check-circle.svg'
 import ArrowUpRightIcon from '@/assets/icons/arrow-up-right.svg'
@@ -73,6 +76,42 @@ const portfolioProjects = [
     ],
     link: "#",
     image: quiz,
+  },
+  {
+    company: "Pacific Sea BPO.",
+    year: "2023",
+    title: "Eat n Split",
+    results: [
+      { title: "State management with useReducer" },
+      { title: "Expense Tracking" },
+      { title: "Easy Bill Splitting" },
+    ],
+    link: "https://eat-n-split-omega-two.vercel.app/",
+    image: eat_n_split,
+  },
+  {
+    company: "Pacific Sea BPO.",
+    year: "2023",
+    title: "BudgetBuddy",
+    results: [
+      { title: "User-Friendly Interface" },
+      { title: "Income and Expenses Tracking" },
+      { title: "Transaction Management" },
+    ],
+    link: "https://track-your-expenses-omega.vercel.app/",
+    image: expenses_tracker,
+  },
+  {
+    company: "Pacific Sea BPO.",
+    year: "2023",
+    title: "Traveler's List",
+    results: [
+      { title: "State management with useReducer" },
+      { title: "Single page application" },
+      { title: "Customizable Checklists" },
+    ],
+    link: "https://travelers-list.vercel.app",
+    image: travel_list,
   },
 ];
 

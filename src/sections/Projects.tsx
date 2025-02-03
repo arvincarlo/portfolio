@@ -21,9 +21,9 @@ const portfolioProjects = [
     year: "2025",
     title: "The Wild Oasis",
     results: [
-      { title: "Reactjs + Nextjs Client Server components" },
-      { title: "Data Fetching, Caching, and Server Actions" },
-      { title: "Partial Pre-Rendering and Optimization" },
+      { title: "Data Fetching and Server Actions" },
+      { title: "Client and Server Interactions" },
+      { title: "Rendering and Optimization" },
     ],
     link: "https://sunny-wild-oasis.netlify.app/",
     image: sunny,
@@ -46,7 +46,7 @@ const portfolioProjects = [
     title: "Cheezy Dreams Pizza",
     results: [
       { title: "Managing States with Redux Toolkit" },
-      { title: "Handling Forms using React Hook Form" },
+      { title: "Form handling with React Hook Form" },
       { title: "TailwindCSS for Styling" },
     ],
     link: "https://cheezy-dreams.vercel.app/",
@@ -59,7 +59,7 @@ const portfolioProjects = [
     results: [
       { title: "State Management with ContextAPI" },
       { title: "Routing using React Router" },
-      { title: "React Leaflet library for the interactive map" },
+      { title: "React Leaflet for the interactive map" },
     ],
     link: "https://pin-voyage.vercel.app/",
     image: voyage,
@@ -145,7 +145,7 @@ export const ProjectsSection = () => {
         <div className="flex flex-col mt-10 gap-20 md:mt-20">
           {portfolioProjects.map((project, projectIndex) => (
             <Card key={project.title} className={`px-8 pt-8 md:pt-12 md:px-10 lg:pt-16 lg:px-20 pb-0 sticky top-16`} style={{
-              top: `calc(64px + ${projectIndex * 33}px)`
+              top: `calc(64px + ${projectIndex * 25}px)`
             }}>
               <div className="lg:grid lg:grid-cols-2 lg:gap-16">
                 <div className="lg:pb-16">

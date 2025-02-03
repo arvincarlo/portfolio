@@ -4,6 +4,7 @@ import { SectionHeader } from "@/components/SectionHeader";
 import CheckCircleIcon from '@/assets/icons/check-circle.svg'
 import ArrowUpRightIcon from '@/assets/icons/arrow-up-right.svg'
 
+import sunny from "@/assets/images/sunny-oasis.png";
 import voyage from "@/assets/images/voyage.png";
 import pizza from "@/assets/images/pizza.png";
 import ShoeValley from "@/assets/images/shoe-valley.png";
@@ -17,8 +18,20 @@ import expenses_tracker from "@/assets/images/expenses-tracker.png";
 const portfolioProjects = [
   {
     company: "Pacific Sea BPO.",
+    year: "2025",
+    title: "The Wild Oasis - Reservation Website",
+    results: [
+      { title: "Reactjs + Nextjs" },
+      { title: "Data Fetching, Caching, Rendering, Optimization" },
+      { title: "React Server Components" },
+    ],
+    link: "https://sunny-wild-oasis.netlify.app/",
+    image: sunny,
+  },
+  {
+    company: "Pacific Sea BPO.",
     year: "2024",
-    title: "The Wild Oasis",
+    title: "The Wild Oasis - Room Management Application",
     results: [
       { title: "State management using React Query" },
       { title: "Routing using React Router" },

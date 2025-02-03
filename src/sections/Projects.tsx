@@ -25,7 +25,7 @@ const portfolioProjects = [
       results: [
         { title: "Data Fetching and Server Actions" },
         { title: "Client and Server Interactions" },
-        { title: "Rendering and Optimization" },
+        { title: "NextAuth for authentication" },
       ],
       link: "https://sunny-wild-oasis.netlify.app/",
       image: sunny,

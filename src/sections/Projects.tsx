@@ -19,11 +19,11 @@ const portfolioProjects = [
   {
     company: "Pacific Sea BPO.",
     year: "2025",
-    title: "The Wild Oasis - Reservation Website",
+    title: "The Wild Oasis",
     results: [
-      { title: "Reactjs + Nextjs" },
-      { title: "Data Fetching, Caching, Rendering, Optimization" },
-      { title: "React Server Components" },
+      { title: "Reactjs + Nextjs Client Server components" },
+      { title: "Data Fetching, Caching, and Server Actions" },
+      { title: "Partial Pre-Rendering and Optimization" },
     ],
     link: "https://sunny-wild-oasis.netlify.app/",
     image: sunny,
@@ -31,12 +31,11 @@ const portfolioProjects = [
   {
     company: "Pacific Sea BPO.",
     year: "2024",
-    title: "The Wild Oasis - Room Management Application",
+    title: "The Wild Oasis",
     results: [
-      { title: "State management using React Query" },
+      { title: "State management with React Query" },
       { title: "Routing using React Router" },
       { title: "Styled Components for the styling" },
-      { title: "Interactive charts using Recharts" },
     ],
     link: "https://sunny-wild-oasis.netlify.app/",
     image: wildOasis,
@@ -44,7 +43,7 @@ const portfolioProjects = [
   {
     company: "Pacific Sea BPO.",
     year: "2024",
-    title: "Cheezy Dreams Pizza Co.",
+    title: "Cheezy Dreams Pizza",
     results: [
       { title: "Managing States with Redux Toolkit" },
       { title: "Handling Forms using React Hook Form" },
@@ -80,7 +79,7 @@ const portfolioProjects = [
   {
     company: "Pacific Sea BPO.",
     year: "2023",
-    title: "React TestZone Application",
+    title: "React TestZone",
     results: [
       { title: "State Management with ContextAPI" },
       { title: "Single page application" },
@@ -145,8 +144,8 @@ export const ProjectsSection = () => {
         <SectionHeader eyebrow="Real-world Results" title="Featured Projects" description="See how I transformed concepts into engaging digital experiences."></SectionHeader>
         <div className="flex flex-col mt-10 gap-20 md:mt-20">
           {portfolioProjects.map((project, projectIndex) => (
-            <Card key={project.title} className="px-8 pt-8 md:pt-12 md:px-10 lg:pt-16 lg:px-20 pb-0 sticky top-16" style={{
-              top: `calc(64px + ${projectIndex * 30}px)`
+            <Card key={project.title} className={`px-8 pt-8 md:pt-12 md:px-10 lg:pt-16 lg:px-20 pb-0 sticky top-16`} style={{
+              top: `calc(64px + ${projectIndex * 33}px)`
             }}>
               <div className="lg:grid lg:grid-cols-2 lg:gap-16">
                 <div className="lg:pb-16">

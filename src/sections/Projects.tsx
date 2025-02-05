@@ -24,7 +24,7 @@ const portfolioProjects = [
       title: "The Wild Oasis",
       results: [
         { title: "Data Fetching and Server Actions" },
-        { title: "Client and Server Interactions" },
+        { title: "Client and Server Components" },
         { title: "Auth.js for authentication" },
       ],
       link: "https://sunny-wild-oasis.netlify.app/",

@@ -27,7 +27,7 @@ const portfolioProjects = [
         { title: "Client and Server Components" },
         { title: "Auth.js for Google authentication" },
       ],
-      link: "https://sunny-wild-oasis.netlify.app/",
+      link: "https://sunny-wild-oasis.vercel.app/",
       image: sunny,
     },
     {
